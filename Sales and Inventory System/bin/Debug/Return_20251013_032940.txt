@@ -1,0 +1,9 @@
+        *** Ever Supermarket ***
+           Return Receipt
+Date: October 13, 2025 03:29 AM
+Cashier: Cash1
+-------------------------------------
+Item             Qty   Price   Total
+-------------------------------------
+-------------------------------------
+        Thank you for returning items!

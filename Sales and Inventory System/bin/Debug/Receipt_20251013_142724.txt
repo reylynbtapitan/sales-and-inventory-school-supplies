@@ -1,0 +1,25 @@
+      *** Ever Supermaarket ***
+           Closer to Home
+J.P. Rizal St., Maypajo, Caloocan City
+ 
+-------------------------------------
+Transaction ID: 0
+Date: October 13, 2025 02:27 PM
+Cashier: aaaaa
+-------------------------------------
+Item             Qty   Price   Total
+-------------------------------------
+CCCCC             4   12.00    48.00
+pop               1   15.00    15.00
+-------------------------------------
+Discount:      ₱0.00
+Gross:         ₱56.25
+VAT(12%):      ₱6.75
+Total:         ₱63.00
+-------------------------------------
+Cash:          ₱70.00
+Change:        ₱7.00
+-------------------------------------
+ 
+    Thank you for your purchase!
+      Please come back again

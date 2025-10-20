@@ -1,0 +1,18 @@
+      *** Ever Supermarket ***
+           Closer to Home
+   J.P. Rizal St., Maypajo, Caloocan City
+-------------------------------------
+Transaction ID: 0
+Date: October 13, 2025 02:02 AM
+Cashier: Cash1
+-------------------------------------
+Item             Qty   Price   Total
+-------------------------------------
+pop               2   15.00    30.00
+-------------------------------------
+Discount:      ₱5.36
+Total:         ₱24.64
+Cash:          ₱30.00
+Change:        ₱5.36
+-------------------------------------
+    Thank you for your purchase!

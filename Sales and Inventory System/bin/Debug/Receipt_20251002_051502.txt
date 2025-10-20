@@ -1,0 +1,13 @@
+      *** SALES RECEIPT ***
+Date: October 02, 2025 05:15 AM
+-------------------------------------
+Item          Qty   Price   Total
+-------------------------------------
+BBBBB             1   30.00    30.00
+-------------------------------------
+Subtotal: ₱30.00
+Cash:     ₱30.00
+Change:   ₱0.00
+-------------------------------------
+    Thank you for your purchase!
+    Please come back again
