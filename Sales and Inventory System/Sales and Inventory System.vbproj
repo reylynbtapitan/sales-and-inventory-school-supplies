@@ -182,12 +182,6 @@
     <Compile Include="Forms\Manager\MInventory.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Manager\MSales.Designer.vb">
-      <DependentUpon>MSales.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Manager\MSales.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Module\Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -238,9 +232,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Manager\MInventory.resx">
       <DependentUpon>MInventory.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Manager\MSales.resx">
-      <DependentUpon>MSales.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

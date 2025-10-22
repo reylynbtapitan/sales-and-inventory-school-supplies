@@ -98,7 +98,7 @@ Public Class MInventory
             MessageBox.Show("Error counting stocks: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
     End Sub
-    Private Sub DgvTransactions_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DGVProducts.CellContentClick
+    Private Sub DgvTransactions_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs)
         Try
             If e.RowIndex < 0 Then Exit Sub
             Dim row As DataGridViewRow = DGVProducts.Rows(e.RowIndex)
@@ -122,15 +122,15 @@ Public Class MInventory
         End Try
     End Sub
 
-    Private Sub TxtSearch_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TxtSearch.TextChanged
+    Private Sub TxtSearch_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
         RefreshProductsGrid()
     End Sub
 
-    Private Sub Guna2ComboBoxCategory_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CmbCategoryFilter.SelectedIndexChanged
+    Private Sub Guna2ComboBoxCategory_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
         RefreshProductsGrid()
     End Sub
 
-    Private Sub Guna2GradientButton6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton6.Click, Guna2GradientButton9.Click
+    Private Sub Guna2GradientButton6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         ManagerDashboard.Show()
         Me.Hide()
     End Sub
@@ -139,7 +139,7 @@ Public Class MInventory
    
     End Sub
 
-    Private Sub Guna2GradientButton7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton7.Click, Guna2GradientButton10.Click
+    Private Sub Guna2GradientButton7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         MAccounts.Show()
         Me.Hide()
     End Sub
@@ -148,12 +148,12 @@ Public Class MInventory
 
     End Sub
 
-    Private Sub Guna2GradientButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton3.Click, Guna2GradientButton1.Click
+    Private Sub Guna2GradientButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         MSales.Show()
         Me.Hide()
     End Sub
 
-    Private Sub Guna2GradientButton5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton5.Click, Guna2GradientButton8.Click
+    Private Sub Guna2GradientButton5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         GlobalLogout()
     End Sub
 End Class

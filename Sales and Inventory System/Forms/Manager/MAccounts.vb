@@ -76,7 +76,7 @@ Public Class MAccounts
             MessageBox.Show("Error counting users: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
     End Sub
-    Private Sub DGVUsers_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DGVUsers.CellContentClick
+    Private Sub DGVUsers_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs)
         Try
             If e.RowIndex < 0 Then Exit Sub
 
@@ -141,57 +141,61 @@ Public Class MAccounts
             MessageBox.Show("Error filtering users: " & ex.Message)
         End Try
     End Sub
-    Private Sub TxtSearch_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TxtSearch.TextChanged
+    Private Sub TxtSearch_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
         LoadUsers(TxtSearch.Text.Trim(), If(CmbFilterRole.SelectedIndex >= 0, CmbFilterRole.Text, "All"))
     End Sub
-    Private Sub CmbFilterRole_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CmbFilterRole.SelectedIndexChanged
+    Private Sub CmbFilterRole_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
         LoadUsers(TxtSearch.Text.Trim(), CmbFilterRole.Text)
     End Sub
 
-    Private Sub Guna2GradientButton5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton5.Click
+    Private Sub Guna2GradientButton5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         GlobalLogout()
     End Sub
 
-    Private Sub Guna2GradientButton6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton6.Click
+    Private Sub Guna2GradientButton6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         ManagerDashboard.Show()
         Me.Hide()
     End Sub
 
-    Private Sub Guna2GradientButton4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton4.Click
+    Private Sub Guna2GradientButton4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         MInventory.Show()
         Me.Hide()
     End Sub
 
-    Private Sub Guna2GradientButton9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton9.Click
-  
-    End Sub
-
-    Private Sub Guna2GradientButton8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton8.Click
-  
-    End Sub
-
-    Private Sub Guna2GradientButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton3.Click
-        MSales.Show()
-        Me.Hide()
-    End Sub
-
-    Private Sub Guna2GradientButton7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton7.Click
+    Private Sub Guna2GradientButton9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Guna2HtmlLabel17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2HtmlLabel17.Click
+    Private Sub Guna2GradientButton8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Guna2HtmlLabel1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2HtmlLabel1.Click
+
+    Private Sub Guna2GradientButton7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Guna2PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2PictureBox3.Click
+    Private Sub Guna2HtmlLabel17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Guna2HtmlLabel2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2HtmlLabel2.Click
+    Private Sub Guna2HtmlLabel1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
+    Private Sub Guna2PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
+    Private Sub Guna2HtmlLabel2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
+    Private Sub Guna2GradientPanel6_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs)
+
+    End Sub
+
+    Private Sub Guna2HtmlLabel21_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 End Class

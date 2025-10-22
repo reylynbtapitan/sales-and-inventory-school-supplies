@@ -153,22 +153,22 @@ Public Class ManagerDashboard
     End Sub
 
 
-    Private Sub Guna2GradientButton4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton4.Click
+    Private Sub Guna2GradientButton4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         MInventory.Show()
         Me.Hide()
     End Sub
 
-    Private Sub Guna2GradientButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton1.Click
+    Private Sub Guna2GradientButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         MInventory.Show()
         Me.Hide()
     End Sub
 
-    Private Sub Guna2GradientButton2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton2.Click
+    Private Sub Guna2GradientButton2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         MAccounts.Show()
         Me.Hide()
     End Sub
 
-    Private Sub Guna2GradientButton7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton7.Click
+    Private Sub Guna2GradientButton7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         MAccounts.Show()
         Me.Hide()
     End Sub
@@ -177,12 +177,12 @@ Public Class ManagerDashboard
 
     End Sub
 
-    Private Sub Guna2GradientButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton3.Click
+    Private Sub Guna2GradientButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Me.Hide()
         MSales.Show()
     End Sub
 
-    Private Sub Guna2GradientButton5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2GradientButton5.Click
+    Private Sub Guna2GradientButton5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         GlobalLogout()
     End Sub
 End Class

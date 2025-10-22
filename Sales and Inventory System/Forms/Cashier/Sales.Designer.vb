@@ -246,7 +246,7 @@ Partial Class Sales
         Me.Guna2GradientPanel2.Location = New System.Drawing.Point(3, 3)
         Me.Guna2GradientPanel2.Name = "Guna2GradientPanel2"
         Me.Guna2GradientPanel2.ShadowDecoration.Parent = Me.Guna2GradientPanel2
-        Me.Guna2GradientPanel2.Size = New System.Drawing.Size(401, 183)
+        Me.Guna2GradientPanel2.Size = New System.Drawing.Size(213, 365)
         Me.Guna2GradientPanel2.TabIndex = 0
         '
         'Guna2Button1
@@ -264,7 +264,7 @@ Partial Class Sales
         Me.Guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.Guna2Button1.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.Location = New System.Drawing.Point(188, 115)
+        Me.Guna2Button1.Location = New System.Drawing.Point(15, 291)
         Me.Guna2Button1.Name = "Guna2Button1"
         Me.Guna2Button1.ShadowDecoration.Parent = Me.Guna2Button1
         Me.Guna2Button1.Size = New System.Drawing.Size(155, 54)
@@ -276,7 +276,7 @@ Partial Class Sales
         Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(188, 47)
+        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(12, 223)
         Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
         Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(68, 28)
         Me.Guna2HtmlLabel3.TabIndex = 29
@@ -288,7 +288,7 @@ Partial Class Sales
         Me.Guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(188, 18)
+        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(12, 189)
         Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
         Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(136, 28)
         Me.Guna2HtmlLabel2.TabIndex = 29
@@ -300,7 +300,7 @@ Partial Class Sales
         Me.Guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel9.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.Guna2HtmlLabel9.Location = New System.Drawing.Point(188, 78)
+        Me.Guna2HtmlLabel9.Location = New System.Drawing.Point(12, 257)
         Me.Guna2HtmlLabel9.Name = "Guna2HtmlLabel9"
         Me.Guna2HtmlLabel9.Size = New System.Drawing.Size(62, 28)
         Me.Guna2HtmlLabel9.TabIndex = 28
@@ -311,7 +311,7 @@ Partial Class Sales
         '
         Me.Guna2PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox1.Image = Global.Sales_and_Inventory_System.My.Resources.Resources.user
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(12, 15)
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(26, 18)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
         Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
         Me.Guna2PictureBox1.Size = New System.Drawing.Size(158, 153)

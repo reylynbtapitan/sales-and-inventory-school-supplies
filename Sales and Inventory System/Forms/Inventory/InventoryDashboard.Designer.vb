@@ -25,40 +25,28 @@ Partial Class InventoryDashboard
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.DGVLowStock = New Guna.UI2.WinForms.Guna2DataGridView()
-        Me.Guna2GradientPanel2 = New Guna.UI2.WinForms.Guna2GradientPanel()
-        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel17 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.LblOutCount = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.LblLowCount = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2GradientButton5 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2HtmlLabel19 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2GradientPanel3 = New Guna.UI2.WinForms.Guna2GradientPanel()
-        Me.LblTotalItems = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2GradientPanel2 = New Guna.UI2.WinForms.Guna2GradientPanel()
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.LblOutCount = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.LblLowCount = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.DGVRequests = New Guna.UI2.WinForms.Guna2DataGridView()
-        Me.Guna2HtmlLabel13 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.LblTotalItems = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2GradientPanel3 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2HtmlLabel17 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         CType(Me.DGVLowStock, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Guna2GradientPanel2.SuspendLayout()
-        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Guna2GradientPanel1.SuspendLayout()
-        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2GradientPanel3.SuspendLayout()
-        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DGVRequests, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2GradientPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'DGVLowStock
@@ -92,14 +80,15 @@ Partial Class InventoryDashboard
         Me.DGVLowStock.DefaultCellStyle = DataGridViewCellStyle3
         Me.DGVLowStock.EnableHeadersVisualStyles = False
         Me.DGVLowStock.GridColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.DGVLowStock.Location = New System.Drawing.Point(289, 456)
+        Me.DGVLowStock.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.DGVLowStock.Location = New System.Drawing.Point(319, 438)
         Me.DGVLowStock.Name = "DGVLowStock"
         Me.DGVLowStock.ReadOnly = True
         Me.DGVLowStock.RowHeadersVisible = False
         Me.DGVLowStock.RowTemplate.Height = 24
         Me.DGVLowStock.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DGVLowStock.Size = New System.Drawing.Size(500, 349)
-        Me.DGVLowStock.TabIndex = 34
+        Me.DGVLowStock.Size = New System.Drawing.Size(956, 284)
+        Me.DGVLowStock.TabIndex = 45
         Me.DGVLowStock.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.[Default]
         Me.DGVLowStock.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.DGVLowStock.ThemeStyle.AlternatingRowsStyle.Font = Nothing
@@ -123,110 +112,17 @@ Partial Class InventoryDashboard
         Me.DGVLowStock.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.DGVLowStock.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         '
-        'Guna2GradientPanel2
+        'LblOutCount
         '
-        Me.Guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientPanel2.BorderRadius = 15
-        Me.Guna2GradientPanel2.Controls.Add(Me.Guna2PictureBox2)
-        Me.Guna2GradientPanel2.Controls.Add(Me.Guna2HtmlLabel3)
-        Me.Guna2GradientPanel2.Controls.Add(Me.Guna2HtmlLabel2)
-        Me.Guna2GradientPanel2.FillColor = System.Drawing.Color.Maroon
-        Me.Guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2GradientPanel2.Location = New System.Drawing.Point(289, 57)
-        Me.Guna2GradientPanel2.Name = "Guna2GradientPanel2"
-        Me.Guna2GradientPanel2.ShadowDecoration.Parent = Me.Guna2GradientPanel2
-        Me.Guna2GradientPanel2.Size = New System.Drawing.Size(956, 98)
-        Me.Guna2GradientPanel2.TabIndex = 31
-        '
-        'Guna2PictureBox2
-        '
-        Me.Guna2PictureBox2.Image = Global.Sales_and_Inventory_System.My.Resources.Resources.in_stock
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(920, 13)
-        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(84, 74)
-        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox2.TabIndex = 31
-        Me.Guna2PictureBox2.TabStop = False
-        '
-        'Guna2HtmlLabel3
-        '
-        Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(17, 49)
-        Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(593, 28)
-        Me.Guna2HtmlLabel3.TabIndex = 3
-        Me.Guna2HtmlLabel3.Text = "Good Day, Stock Manager Let’s keep the shelves well-stocked."
-        Me.Guna2HtmlLabel3.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Guna2HtmlLabel2
-        '
-        Me.Guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(17, 13)
-        Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(121, 33)
-        Me.Guna2HtmlLabel2.TabIndex = 2
-        Me.Guna2HtmlLabel2.Text = "Username"
-        Me.Guna2HtmlLabel2.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Guna2HtmlLabel17
-        '
-        Me.Guna2HtmlLabel17.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2HtmlLabel17.AutoSize = False
-        Me.Guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel17.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.Guna2HtmlLabel17.Location = New System.Drawing.Point(832, 12)
-        Me.Guna2HtmlLabel17.Name = "Guna2HtmlLabel17"
-        Me.Guna2HtmlLabel17.Size = New System.Drawing.Size(413, 39)
-        Me.Guna2HtmlLabel17.TabIndex = 30
-        Me.Guna2HtmlLabel17.Text = "Date"
-        Me.Guna2HtmlLabel17.TextAlignment = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Guna2HtmlLabel1
-        '
-        Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(289, 12)
-        Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(133, 33)
-        Me.Guna2HtmlLabel1.TabIndex = 29
-        Me.Guna2HtmlLabel1.Text = "Dashboard"
-        Me.Guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Guna2HtmlLabel7
-        '
-        Me.Guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel7.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.Guna2HtmlLabel7.Location = New System.Drawing.Point(289, 411)
-        Me.Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
-        Me.Guna2HtmlLabel7.Size = New System.Drawing.Size(264, 33)
-        Me.Guna2HtmlLabel7.TabIndex = 39
-        Me.Guna2HtmlLabel7.Text = "Inventory Notification"
-        Me.Guna2HtmlLabel7.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Guna2GradientPanel1
-        '
-        Me.Guna2GradientPanel1.BorderRadius = 75
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2GradientButton6)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2GradientButton5)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2GradientButton4)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2HtmlLabel19)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2PictureBox3)
-        Me.Guna2GradientPanel1.FillColor = System.Drawing.Color.Maroon
-        Me.Guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical
-        Me.Guna2GradientPanel1.Location = New System.Drawing.Point(-48, -9)
-        Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
-        Me.Guna2GradientPanel1.ShadowDecoration.Parent = Me.Guna2GradientPanel1
-        Me.Guna2GradientPanel1.Size = New System.Drawing.Size(322, 806)
-        Me.Guna2GradientPanel1.TabIndex = 41
+        Me.LblOutCount.BackColor = System.Drawing.Color.Transparent
+        Me.LblOutCount.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblOutCount.ForeColor = System.Drawing.Color.Black
+        Me.LblOutCount.Location = New System.Drawing.Point(24, 109)
+        Me.LblOutCount.Name = "LblOutCount"
+        Me.LblOutCount.Size = New System.Drawing.Size(153, 27)
+        Me.LblOutCount.TabIndex = 5
+        Me.LblOutCount.Text = "Out of Stocks :"
+        Me.LblOutCount.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Guna2GradientButton6
         '
@@ -236,9 +132,9 @@ Partial Class InventoryDashboard
         Me.Guna2GradientButton6.CheckedState.Parent = Me.Guna2GradientButton6
         Me.Guna2GradientButton6.CustomImages.Parent = Me.Guna2GradientButton6
         Me.Guna2GradientButton6.FillColor = System.Drawing.Color.Gold
-        Me.Guna2GradientButton6.FillColor2 = System.Drawing.Color.DarkKhaki
+        Me.Guna2GradientButton6.FillColor2 = System.Drawing.Color.Khaki
         Me.Guna2GradientButton6.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientButton6.ForeColor = System.Drawing.Color.Brown
+        Me.Guna2GradientButton6.ForeColor = System.Drawing.Color.Black
         Me.Guna2GradientButton6.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(195, Byte), Integer))
         Me.Guna2GradientButton6.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.Guna2GradientButton6.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
@@ -250,6 +146,30 @@ Partial Class InventoryDashboard
         Me.Guna2GradientButton6.TabIndex = 13
         Me.Guna2GradientButton6.Text = "Dashboard"
         '
+        'LblLowCount
+        '
+        Me.LblLowCount.BackColor = System.Drawing.Color.Transparent
+        Me.LblLowCount.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblLowCount.ForeColor = System.Drawing.Color.Black
+        Me.LblLowCount.Location = New System.Drawing.Point(24, 70)
+        Me.LblLowCount.Name = "LblLowCount"
+        Me.LblLowCount.Size = New System.Drawing.Size(158, 27)
+        Me.LblLowCount.TabIndex = 4
+        Me.LblLowCount.Text = "Low of Stocks :"
+        Me.LblLowCount.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Guna2HtmlLabel5
+        '
+        Me.Guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black
+        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(203, 18)
+        Me.Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
+        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(117, 33)
+        Me.Guna2HtmlLabel5.TabIndex = 2
+        Me.Guna2HtmlLabel5.Text = "Inventory"
+        Me.Guna2HtmlLabel5.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
+        '
         'Guna2GradientButton5
         '
         Me.Guna2GradientButton5.BackColor = System.Drawing.Color.Transparent
@@ -258,9 +178,9 @@ Partial Class InventoryDashboard
         Me.Guna2GradientButton5.CheckedState.Parent = Me.Guna2GradientButton5
         Me.Guna2GradientButton5.CustomImages.Parent = Me.Guna2GradientButton5
         Me.Guna2GradientButton5.FillColor = System.Drawing.Color.Gold
-        Me.Guna2GradientButton5.FillColor2 = System.Drawing.Color.DarkKhaki
+        Me.Guna2GradientButton5.FillColor2 = System.Drawing.Color.Khaki
         Me.Guna2GradientButton5.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientButton5.ForeColor = System.Drawing.Color.Brown
+        Me.Guna2GradientButton5.ForeColor = System.Drawing.Color.Black
         Me.Guna2GradientButton5.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(195, Byte), Integer))
         Me.Guna2GradientButton5.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.Guna2GradientButton5.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
@@ -280,9 +200,9 @@ Partial Class InventoryDashboard
         Me.Guna2GradientButton4.CheckedState.Parent = Me.Guna2GradientButton4
         Me.Guna2GradientButton4.CustomImages.Parent = Me.Guna2GradientButton4
         Me.Guna2GradientButton4.FillColor = System.Drawing.Color.Gold
-        Me.Guna2GradientButton4.FillColor2 = System.Drawing.Color.DarkKhaki
+        Me.Guna2GradientButton4.FillColor2 = System.Drawing.Color.Khaki
         Me.Guna2GradientButton4.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientButton4.ForeColor = System.Drawing.Color.Brown
+        Me.Guna2GradientButton4.ForeColor = System.Drawing.Color.Black
         Me.Guna2GradientButton4.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(195, Byte), Integer))
         Me.Guna2GradientButton4.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.Guna2GradientButton4.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
@@ -307,6 +227,72 @@ Partial Class InventoryDashboard
         Me.Guna2HtmlLabel19.Text = "Username"
         Me.Guna2HtmlLabel19.TextAlignment = System.Drawing.ContentAlignment.TopCenter
         '
+        'Guna2GradientPanel2
+        '
+        Me.Guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientPanel2.BorderRadius = 15
+        Me.Guna2GradientPanel2.FillColor = System.Drawing.Color.Maroon
+        Me.Guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Guna2GradientPanel2.Location = New System.Drawing.Point(319, 39)
+        Me.Guna2GradientPanel2.Name = "Guna2GradientPanel2"
+        Me.Guna2GradientPanel2.ShadowDecoration.Parent = Me.Guna2GradientPanel2
+        Me.Guna2GradientPanel2.Size = New System.Drawing.Size(956, 98)
+        Me.Guna2GradientPanel2.TabIndex = 48
+        '
+        'Guna2GradientButton1
+        '
+        Me.Guna2GradientButton1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton1.BorderRadius = 10
+        Me.Guna2GradientButton1.BorderThickness = 2
+        Me.Guna2GradientButton1.CheckedState.Parent = Me.Guna2GradientButton1
+        Me.Guna2GradientButton1.CustomImages.Parent = Me.Guna2GradientButton1
+        Me.Guna2GradientButton1.FillColor = System.Drawing.Color.Maroon
+        Me.Guna2GradientButton1.FillColor2 = System.Drawing.Color.Maroon
+        Me.Guna2GradientButton1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GradientButton1.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(195, Byte), Integer))
+        Me.Guna2GradientButton1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.Guna2GradientButton1.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.Guna2GradientButton1.HoverState.Parent = Me.Guna2GradientButton1
+        Me.Guna2GradientButton1.Location = New System.Drawing.Point(167, 163)
+        Me.Guna2GradientButton1.Name = "Guna2GradientButton1"
+        Me.Guna2GradientButton1.ShadowDecoration.Parent = Me.Guna2GradientButton1
+        Me.Guna2GradientButton1.Size = New System.Drawing.Size(147, 41)
+        Me.Guna2GradientButton1.TabIndex = 7
+        Me.Guna2GradientButton1.Text = "To Inventory"
+        '
+        'LblTotalItems
+        '
+        Me.LblTotalItems.BackColor = System.Drawing.Color.Transparent
+        Me.LblTotalItems.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblTotalItems.ForeColor = System.Drawing.Color.Black
+        Me.LblTotalItems.Location = New System.Drawing.Point(274, 109)
+        Me.LblTotalItems.Name = "LblTotalItems"
+        Me.LblTotalItems.Size = New System.Drawing.Size(131, 27)
+        Me.LblTotalItems.TabIndex = 8
+        Me.LblTotalItems.Text = "Total Items :"
+        Me.LblTotalItems.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Guna2GradientPanel3
+        '
+        Me.Guna2GradientPanel3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientPanel3.BorderColor = System.Drawing.Color.Black
+        Me.Guna2GradientPanel3.BorderRadius = 15
+        Me.Guna2GradientPanel3.BorderThickness = 2
+        Me.Guna2GradientPanel3.Controls.Add(Me.LblTotalItems)
+        Me.Guna2GradientPanel3.Controls.Add(Me.Guna2GradientButton1)
+        Me.Guna2GradientPanel3.Controls.Add(Me.LblOutCount)
+        Me.Guna2GradientPanel3.Controls.Add(Me.LblLowCount)
+        Me.Guna2GradientPanel3.Controls.Add(Me.Guna2HtmlLabel5)
+        Me.Guna2GradientPanel3.FillColor = System.Drawing.Color.Gold
+        Me.Guna2GradientPanel3.FillColor2 = System.Drawing.Color.Khaki
+        Me.Guna2GradientPanel3.ForeColor = System.Drawing.Color.Black
+        Me.Guna2GradientPanel3.Location = New System.Drawing.Point(319, 152)
+        Me.Guna2GradientPanel3.Name = "Guna2GradientPanel3"
+        Me.Guna2GradientPanel3.ShadowDecoration.Parent = Me.Guna2GradientPanel3
+        Me.Guna2GradientPanel3.Size = New System.Drawing.Size(486, 218)
+        Me.Guna2GradientPanel3.TabIndex = 51
+        '
         'Guna2PictureBox3
         '
         Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
@@ -319,192 +305,83 @@ Partial Class InventoryDashboard
         Me.Guna2PictureBox3.TabIndex = 9
         Me.Guna2PictureBox3.TabStop = False
         '
-        'Guna2GradientPanel3
+        'Guna2GradientPanel1
         '
-        Me.Guna2GradientPanel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientPanel3.BorderColor = System.Drawing.Color.Black
-        Me.Guna2GradientPanel3.BorderRadius = 15
-        Me.Guna2GradientPanel3.BorderThickness = 2
-        Me.Guna2GradientPanel3.Controls.Add(Me.LblTotalItems)
-        Me.Guna2GradientPanel3.Controls.Add(Me.Guna2GradientButton1)
-        Me.Guna2GradientPanel3.Controls.Add(Me.Guna2PictureBox1)
-        Me.Guna2GradientPanel3.Controls.Add(Me.LblOutCount)
-        Me.Guna2GradientPanel3.Controls.Add(Me.LblLowCount)
-        Me.Guna2GradientPanel3.Controls.Add(Me.Guna2HtmlLabel5)
-        Me.Guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.Guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2GradientPanel3.Location = New System.Drawing.Point(289, 168)
-        Me.Guna2GradientPanel3.Name = "Guna2GradientPanel3"
-        Me.Guna2GradientPanel3.ShadowDecoration.Parent = Me.Guna2GradientPanel3
-        Me.Guna2GradientPanel3.Size = New System.Drawing.Size(500, 227)
-        Me.Guna2GradientPanel3.TabIndex = 42
+        Me.Guna2GradientPanel1.BorderRadius = 75
+        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2GradientButton6)
+        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2GradientButton5)
+        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2GradientButton4)
+        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2HtmlLabel19)
+        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2PictureBox3)
+        Me.Guna2GradientPanel1.FillColor = System.Drawing.Color.Maroon
+        Me.Guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical
+        Me.Guna2GradientPanel1.Location = New System.Drawing.Point(-18, -27)
+        Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
+        Me.Guna2GradientPanel1.ShadowDecoration.Parent = Me.Guna2GradientPanel1
+        Me.Guna2GradientPanel1.Size = New System.Drawing.Size(322, 806)
+        Me.Guna2GradientPanel1.TabIndex = 50
         '
-        'LblTotalItems
+        'Guna2HtmlLabel7
         '
-        Me.LblTotalItems.BackColor = System.Drawing.Color.Transparent
-        Me.LblTotalItems.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblTotalItems.ForeColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.LblTotalItems.Location = New System.Drawing.Point(274, 109)
-        Me.LblTotalItems.Name = "LblTotalItems"
-        Me.LblTotalItems.Size = New System.Drawing.Size(131, 27)
-        Me.LblTotalItems.TabIndex = 8
-        Me.LblTotalItems.Text = "Total Items :"
-        Me.LblTotalItems.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel7.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
+        Me.Guna2HtmlLabel7.Location = New System.Drawing.Point(319, 393)
+        Me.Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
+        Me.Guna2HtmlLabel7.Size = New System.Drawing.Size(264, 33)
+        Me.Guna2HtmlLabel7.TabIndex = 49
+        Me.Guna2HtmlLabel7.Text = "Inventory Notification"
+        Me.Guna2HtmlLabel7.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Guna2GradientButton1
+        'Guna2HtmlLabel3
         '
-        Me.Guna2GradientButton1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton1.BorderRadius = 10
-        Me.Guna2GradientButton1.BorderThickness = 2
-        Me.Guna2GradientButton1.CheckedState.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.CustomImages.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.FillColor = System.Drawing.Color.Gold
-        Me.Guna2GradientButton1.FillColor2 = System.Drawing.Color.DarkKhaki
-        Me.Guna2GradientButton1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientButton1.ForeColor = System.Drawing.Color.Brown
-        Me.Guna2GradientButton1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(195, Byte), Integer))
-        Me.Guna2GradientButton1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
-        Me.Guna2GradientButton1.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
-        Me.Guna2GradientButton1.HoverState.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.Location = New System.Drawing.Point(167, 163)
-        Me.Guna2GradientButton1.Name = "Guna2GradientButton1"
-        Me.Guna2GradientButton1.ShadowDecoration.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.Size = New System.Drawing.Size(147, 41)
-        Me.Guna2GradientButton1.TabIndex = 7
-        Me.Guna2GradientButton1.Text = "To Inventory"
+        Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
+        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(47, 31)
+        Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
+        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(593, 28)
+        Me.Guna2HtmlLabel3.TabIndex = 44
+        Me.Guna2HtmlLabel3.Text = "Good Day, Stock Manager Let’s keep the shelves well-stocked."
+        Me.Guna2HtmlLabel3.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Guna2PictureBox1
+        'Guna2HtmlLabel17
         '
-        Me.Guna2PictureBox1.Image = Global.Sales_and_Inventory_System.My.Resources.Resources.product_management
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(145, 12)
-        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(52, 45)
-        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox1.TabIndex = 6
-        Me.Guna2PictureBox1.TabStop = False
+        Me.Guna2HtmlLabel17.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2HtmlLabel17.AutoSize = False
+        Me.Guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel17.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
+        Me.Guna2HtmlLabel17.Location = New System.Drawing.Point(862, -6)
+        Me.Guna2HtmlLabel17.Name = "Guna2HtmlLabel17"
+        Me.Guna2HtmlLabel17.Size = New System.Drawing.Size(413, 39)
+        Me.Guna2HtmlLabel17.TabIndex = 47
+        Me.Guna2HtmlLabel17.Text = "Date"
+        Me.Guna2HtmlLabel17.TextAlignment = System.Drawing.ContentAlignment.MiddleRight
         '
-        'LblOutCount
+        'Guna2HtmlLabel1
         '
-        Me.LblOutCount.BackColor = System.Drawing.Color.Transparent
-        Me.LblOutCount.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblOutCount.ForeColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.LblOutCount.Location = New System.Drawing.Point(24, 109)
-        Me.LblOutCount.Name = "LblOutCount"
-        Me.LblOutCount.Size = New System.Drawing.Size(153, 27)
-        Me.LblOutCount.TabIndex = 5
-        Me.LblOutCount.Text = "Out of Stocks :"
-        Me.LblOutCount.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'LblLowCount
-        '
-        Me.LblLowCount.BackColor = System.Drawing.Color.Transparent
-        Me.LblLowCount.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblLowCount.ForeColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.LblLowCount.Location = New System.Drawing.Point(24, 70)
-        Me.LblLowCount.Name = "LblLowCount"
-        Me.LblLowCount.Size = New System.Drawing.Size(158, 27)
-        Me.LblLowCount.TabIndex = 4
-        Me.LblLowCount.Text = "Low of Stocks :"
-        Me.LblLowCount.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Guna2HtmlLabel5
-        '
-        Me.Guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(203, 18)
-        Me.Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(117, 33)
-        Me.Guna2HtmlLabel5.TabIndex = 2
-        Me.Guna2HtmlLabel5.Text = "Inventory"
-        Me.Guna2HtmlLabel5.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'DGVRequests
-        '
-        Me.DGVRequests.AllowUserToAddRows = False
-        Me.DGVRequests.AllowUserToResizeColumns = False
-        Me.DGVRequests.AllowUserToResizeRows = False
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
-        Me.DGVRequests.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
-        Me.DGVRequests.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.DGVRequests.BackgroundColor = System.Drawing.Color.LightGray
-        Me.DGVRequests.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.DGVRequests.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGVRequests.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
-        Me.DGVRequests.ColumnHeadersHeight = 25
-        Me.DGVRequests.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DGVRequests.DefaultCellStyle = DataGridViewCellStyle6
-        Me.DGVRequests.EnableHeadersVisualStyles = False
-        Me.DGVRequests.GridColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.DGVRequests.Location = New System.Drawing.Point(811, 456)
-        Me.DGVRequests.Name = "DGVRequests"
-        Me.DGVRequests.ReadOnly = True
-        Me.DGVRequests.RowHeadersVisible = False
-        Me.DGVRequests.RowTemplate.Height = 24
-        Me.DGVRequests.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DGVRequests.Size = New System.Drawing.Size(500, 349)
-        Me.DGVRequests.TabIndex = 44
-        Me.DGVRequests.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.[Default]
-        Me.DGVRequests.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
-        Me.DGVRequests.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        Me.DGVRequests.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty
-        Me.DGVRequests.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty
-        Me.DGVRequests.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
-        Me.DGVRequests.ThemeStyle.BackColor = System.Drawing.Color.LightGray
-        Me.DGVRequests.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.DGVRequests.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.DGVRequests.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.DGVRequests.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        Me.DGVRequests.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
-        Me.DGVRequests.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.DGVRequests.ThemeStyle.HeaderStyle.Height = 25
-        Me.DGVRequests.ThemeStyle.ReadOnly = True
-        Me.DGVRequests.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
-        Me.DGVRequests.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.[Single]
-        Me.DGVRequests.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        Me.DGVRequests.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.DGVRequests.ThemeStyle.RowsStyle.Height = 24
-        Me.DGVRequests.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.DGVRequests.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        '
-        'Guna2HtmlLabel13
-        '
-        Me.Guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel13.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        Me.Guna2HtmlLabel13.Location = New System.Drawing.Point(811, 411)
-        Me.Guna2HtmlLabel13.Name = "Guna2HtmlLabel13"
-        Me.Guna2HtmlLabel13.Size = New System.Drawing.Size(184, 33)
-        Me.Guna2HtmlLabel13.TabIndex = 45
-        Me.Guna2HtmlLabel13.Text = "Recent Request"
-        Me.Guna2HtmlLabel13.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
+        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(319, -6)
+        Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(133, 33)
+        Me.Guna2HtmlLabel1.TabIndex = 46
+        Me.Guna2HtmlLabel1.Text = "Dashboard"
+        Me.Guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
         '
         'InventoryDashboard
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.ClientSize = New System.Drawing.Size(1257, 752)
-        Me.Controls.Add(Me.Guna2HtmlLabel13)
-        Me.Controls.Add(Me.DGVRequests)
+        Me.Controls.Add(Me.DGVLowStock)
+        Me.Controls.Add(Me.Guna2GradientPanel2)
         Me.Controls.Add(Me.Guna2GradientPanel3)
         Me.Controls.Add(Me.Guna2GradientPanel1)
         Me.Controls.Add(Me.Guna2HtmlLabel7)
-        Me.Controls.Add(Me.DGVLowStock)
-        Me.Controls.Add(Me.Guna2GradientPanel2)
+        Me.Controls.Add(Me.Guna2HtmlLabel3)
         Me.Controls.Add(Me.Guna2HtmlLabel17)
         Me.Controls.Add(Me.Guna2HtmlLabel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -512,40 +389,30 @@ Partial Class InventoryDashboard
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "InventoryDashboard"
         CType(Me.DGVLowStock, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Guna2GradientPanel2.ResumeLayout(False)
-        Me.Guna2GradientPanel2.PerformLayout()
-        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Guna2GradientPanel1.ResumeLayout(False)
-        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2GradientPanel3.ResumeLayout(False)
         Me.Guna2GradientPanel3.PerformLayout()
-        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DGVRequests, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2GradientPanel1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents DGVLowStock As Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents Guna2GradientPanel2 As Guna.UI2.WinForms.Guna2GradientPanel
-    Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel17 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel7 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents LblOutCount As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2GradientButton6 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents LblLowCount As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2GradientButton5 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton4 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2HtmlLabel19 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2PictureBox3 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents Guna2GradientPanel3 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents Guna2GradientPanel2 As Guna.UI2.WinForms.Guna2GradientPanel
     Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents LblOutCount As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents LblLowCount As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents LblTotalItems As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents DGVRequests As Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents Guna2HtmlLabel13 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2GradientPanel3 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents Guna2PictureBox3 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents Guna2HtmlLabel7 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel17 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
 End Class

@@ -22,9 +22,9 @@ Partial Class History
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
@@ -47,7 +47,6 @@ Partial Class History
         Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.LblAccumulatedSales = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.TxtSearch = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientPanel1.SuspendLayout()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DgvTransactions, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -262,30 +261,30 @@ Partial Class History
         Me.DgvTransactions.AllowUserToAddRows = False
         Me.DgvTransactions.AllowUserToResizeColumns = False
         Me.DgvTransactions.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.DgvTransactions.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        Me.DgvTransactions.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
         Me.DgvTransactions.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DgvTransactions.BackgroundColor = System.Drawing.Color.LightGray
         Me.DgvTransactions.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.DgvTransactions.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvTransactions.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI", 10.5!)
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DgvTransactions.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
         Me.DgvTransactions.ColumnHeadersHeight = 25
         Me.DgvTransactions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DgvTransactions.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 10.5!)
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DgvTransactions.DefaultCellStyle = DataGridViewCellStyle6
         Me.DgvTransactions.EnableHeadersVisualStyles = False
         Me.DgvTransactions.GridColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(1, Byte), Integer))
         Me.DgvTransactions.Location = New System.Drawing.Point(283, 286)
@@ -473,28 +472,6 @@ Partial Class History
         Me.TxtSearch.Size = New System.Drawing.Size(409, 30)
         Me.TxtSearch.TabIndex = 31
         '
-        'Guna2GradientButton2
-        '
-        Me.Guna2GradientButton2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton2.BorderRadius = 10
-        Me.Guna2GradientButton2.BorderThickness = 2
-        Me.Guna2GradientButton2.CheckedState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.CustomImages.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.FillColor = System.Drawing.Color.Gold
-        Me.Guna2GradientButton2.FillColor2 = System.Drawing.Color.DarkKhaki
-        Me.Guna2GradientButton2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientButton2.ForeColor = System.Drawing.Color.Brown
-        Me.Guna2GradientButton2.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(195, Byte), Integer))
-        Me.Guna2GradientButton2.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
-        Me.Guna2GradientButton2.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
-        Me.Guna2GradientButton2.HoverState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.Location = New System.Drawing.Point(1007, 223)
-        Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
-        Me.Guna2GradientButton2.ShadowDecoration.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.Size = New System.Drawing.Size(155, 54)
-        Me.Guna2GradientButton2.TabIndex = 36
-        Me.Guna2GradientButton2.Text = "GENERATE REPORT"
-        '
         'History
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -502,7 +479,6 @@ Partial Class History
         Me.ClientSize = New System.Drawing.Size(1257, 752)
         Me.Controls.Add(Me.Guna2GradientPanel3)
         Me.Controls.Add(Me.Guna2GradientPanel2)
-        Me.Controls.Add(Me.Guna2GradientButton2)
         Me.Controls.Add(Me.Guna2GradientPanel5)
         Me.Controls.Add(Me.DgvTransactions)
         Me.Controls.Add(Me.Guna2HtmlLabel17)
@@ -549,5 +525,4 @@ Partial Class History
     Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents LblAccumulatedSales As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
 End Class

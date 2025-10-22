@@ -156,4 +156,8 @@
     Private Sub FlowLayoutPanel1_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles FlowLayoutPanel1.Paint
 
     End Sub
+
+    Private Sub Guna2PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2PictureBox1.Click
+
+    End Sub
 End Class

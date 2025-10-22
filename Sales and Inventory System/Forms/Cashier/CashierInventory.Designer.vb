@@ -279,7 +279,7 @@ Partial Class CashierInventory
         Me.Guna2GradientPanel2.Location = New System.Drawing.Point(3, 3)
         Me.Guna2GradientPanel2.Name = "Guna2GradientPanel2"
         Me.Guna2GradientPanel2.ShadowDecoration.Parent = Me.Guna2GradientPanel2
-        Me.Guna2GradientPanel2.Size = New System.Drawing.Size(217, 372)
+        Me.Guna2GradientPanel2.Size = New System.Drawing.Size(199, 363)
         Me.Guna2GradientPanel2.TabIndex = 0
         '
         'Guna2Button1

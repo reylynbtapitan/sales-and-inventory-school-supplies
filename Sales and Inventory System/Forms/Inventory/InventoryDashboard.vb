@@ -16,10 +16,6 @@
         LoadLowAndOutOfStock()
         LoadTotalItems()
 
-        LoadAllRequests()
-        LoadRequestCounts()
-        SetupDGV(DGVRequests)
-
     End Sub
     Private Sub LoadTotalItems()
         Try
@@ -92,48 +88,6 @@
         Inventory.Show()
     End Sub
 
-    Private Sub LoadAllRequests(Optional ByVal searchText As String = "")
-        Try
-            Dim sql As String = "" &
-                "SELECT RequestID, RequestType, RequestedBy, Details, Status, " & vbCrLf &
-                "ISNULL(DeliveryStatus, 'Not Yet Delivered') AS DeliveryStatus, " & vbCrLf &
-                "DateRequested " & vbCrLf &
-                "FROM ApprovalRequests " & vbCrLf &
-                "WHERE RequestType = 'OrderItem'"
-
-            If Not String.IsNullOrWhiteSpace(searchText) Then
-                sql &= " AND (RequestedBy LIKE @Search OR Details LIKE @Search OR Status LIKE @Search OR DeliveryStatus LIKE @Search)"
-                AddParam("@Search", "%" & searchText & "%")
-            End If
-
-            sql &= " ORDER BY DateRequested DESC"
-
-            Dim dt As DataTable = ExecuteQuery(sql)
-            DGVRequests.DataSource = dt
-
-        Catch ex As Exception
-            MessageBox.Show("Error loading requests: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
-
-    ' ✅ Count requests (Approved, Pending, Rejected, Delivered)
-    Private Sub LoadRequestCounts()
-        Try
-            Dim sql As String = "" &
-                "SELECT " & vbCrLf &
-                "SUM(CASE WHEN Status = 'Approved' THEN 1 ELSE 0 END) AS ApprovedCount, " & vbCrLf &
-                "SUM(CASE WHEN Status = 'Pending' THEN 1 ELSE 0 END) AS PendingCount, " & vbCrLf &
-                "SUM(CASE WHEN Status = 'Rejected' THEN 1 ELSE 0 END) AS RejectedCount, " & vbCrLf &
-                "SUM(CASE WHEN DeliveryStatus = 'Delivered' THEN 1 ELSE 0 END) AS DeliveredCount " & vbCrLf &
-                "FROM ApprovalRequests " & vbCrLf &
-                "WHERE RequestType = 'OrderItem'"
-
-            Dim dt As DataTable = ExecuteQuery(sql)
-        Catch ex As Exception
-            MessageBox.Show("Error loading request counts: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
-
     ' ✅ Setup DataGridView Columns
     Private Sub SetupDGV(ByVal dgv As DataGridView)
         dgv.Columns.Clear()
@@ -171,6 +125,10 @@
     End Sub
 
     Private Sub Guna2HtmlLabel17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Guna2HtmlLabel17.Click
+
+    End Sub
+
+    Private Sub DGVRequests_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs)
 
     End Sub
 End Class
