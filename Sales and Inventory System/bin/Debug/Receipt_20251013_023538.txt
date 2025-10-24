@@ -1,0 +1,24 @@
+      *** Ever Supermaarket ***
+           Closer to Home
+J.P. Rizal St., Maypajo, Caloocan City
+ 
+-------------------------------------
+Transaction ID: 1017
+Date: October 13, 2025 02:35 AM
+Cashier: Cash1
+-------------------------------------
+Item             Qty   Price   Total
+-------------------------------------
+Solmux            5   10.00    50.00
+-------------------------------------
+Discount:      ₱10.00
+Gross:         ₱35.71
+VAT(12%):      ₱4.29
+Total:         ₱40.00
+-------------------------------------
+Cash:          ₱41.00
+Change:        ₱1.00
+-------------------------------------
+ 
+    Thank you for your purchase!
+      Please come back again

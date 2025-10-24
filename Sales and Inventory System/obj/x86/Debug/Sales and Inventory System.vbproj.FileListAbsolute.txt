@@ -1,0 +1,151 @@
+C:\Users\efram\AppData\Local\Temporary Projects\Sales and Inventory System\bin\Debug\Sales and Inventory System.exe
+C:\Users\efram\AppData\Local\Temporary Projects\Sales and Inventory System\bin\Debug\Sales and Inventory System.pdb
+C:\Users\efram\AppData\Local\Temporary Projects\Sales and Inventory System\bin\Debug\Sales and Inventory System.xml
+C:\Users\efram\AppData\Local\Temporary Projects\Sales and Inventory System\bin\Debug\Guna.UI2.dll
+C:\Users\efram\AppData\Local\Temporary Projects\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Form1.resources
+C:\Users\efram\AppData\Local\Temporary Projects\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Resources.resources
+C:\Users\efram\AppData\Local\Temporary Projects\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.vbproj.GenerateResource.Cache
+C:\Users\efram\AppData\Local\Temporary Projects\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.exe
+C:\Users\efram\AppData\Local\Temporary Projects\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.xml
+C:\Users\efram\AppData\Local\Temporary Projects\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.pdb
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.exe
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.xml
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.pdb
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.vbprojResolveAssemblyReference.cache
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Resources.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.vbproj.GenerateResource.Cache
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\bin\Debug\Sales and Inventory System.pdb
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\bin\Debug\Sales and Inventory System.xml
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\bin\Debug\Guna.UI2.dll
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.AdminDashboard.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.LogInForm.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Inventory.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\bin\Debug\MessagingToolkit.Barcode.dll
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Accounts.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.LogInHistory.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.CashierDashboard.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Sales.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Quantity.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.CashierInventory.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.History.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\bin\Debug\Sales and Inventory System.exe.config
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Form2.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.InventoryDashboard.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.InvInventory.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Reorder.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Supplier.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.ManagerDashboard.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MInventory.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MSales.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Approval.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Backup.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.BackupReport.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Archieved.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.ReturnItems.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MReport1.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MAccounts.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MSupplier.resources
+C:\Users\efram\OneDrive\Desktop\Sales and Inventory System\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Sales_Report.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\bin\Debug\Sales and Inventory System.exe.config
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.exe
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.xml
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.pdb
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\bin\Debug\Sales and Inventory System.pdb
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\bin\Debug\Sales and Inventory System.xml
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.vbprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Accounts.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.AdminDashboard.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Archieved.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Backup.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.BackupReport.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Inventory.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.LogInHistory.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.CashierDashboard.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.CashierInventory.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.History.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Quantity.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Form2.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.ReturnItems.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Sales.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.InventoryDashboard.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.InvInventory.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Reorder.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Supplier.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.LogInForm.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Approval.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MAccounts.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.ManagerDashboard.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MInventory.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MReport1.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MSales.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MSupplier.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Sales_Report.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Resources.resources
+C:\Users\Asus\Desktop\Sales and Inventory System\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.vbproj.GenerateResource.Cache
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\bin\Debug\Sales and Inventory System.exe.config
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.exe
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.xml
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.pdb
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\bin\Debug\Sales and Inventory System.pdb
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\bin\Debug\Sales and Inventory System.xml
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.vbprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Inventory.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.CashierDashboard.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.CashierInventory.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.History.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Quantity.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Form2.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Sales.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.InventoryDashboard.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.LogInForm.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MAccounts.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.ManagerDashboard.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MInventory.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MReport1.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MSales.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Sales_Report.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Resources.resources
+C:\Users\Asus\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.vbproj.GenerateResource.Cache
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\bin\Debug\Sales and Inventory System.exe.config
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.exe
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.xml
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.pdb
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.vbprojResolveAssemblyReference.cache
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Inventory.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.CashierDashboard.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.CashierInventory.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.History.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Quantity.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Sales.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.InventoryDashboard.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.LogInForm.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MAccounts.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.ManagerDashboard.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MInventory.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MSales.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Resources.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.vbproj.GenerateResource.Cache
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\bin\Debug\Sales and Inventory System.pdb
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (2)\Sales and Inventory System\bin\Debug\Sales and Inventory System.xml
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\bin\Debug\Sales and Inventory System.exe.config
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.exe
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.xml
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.pdb
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\bin\Debug\Sales and Inventory System.pdb
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\bin\Debug\Sales and Inventory System.xml
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.vbprojResolveAssemblyReference.cache
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Inventory.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.CashierDashboard.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.CashierInventory.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.History.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Quantity.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Sales.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.InventoryDashboard.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.LogInForm.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MAccounts.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.ManagerDashboard.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MInventory.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.MSales.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales_and_Inventory_System.Resources.resources
+C:\Users\reylynbtapitan\Desktop\Sales and Inventory System - Copy (3) - Copy\Sales and Inventory System\obj\x86\Debug\Sales and Inventory System.vbproj.GenerateResource.Cache
